@@ -1,0 +1,38 @@
+.homeVideos-List {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px;
+  flex-wrap: wrap;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.failure-image {
+  height: 300px;
+  width: 200px;
+}
+.retry-button {
+  background-color: #4f46e5;
+  color: #ffffff;
+  align-items: center;
+  border: none;
+  height: 36px;
+  width: 138px;
+  outline: none;
+  border-radius: 3px;
+}
+.white-text {
+  color: #ffffff;
+}
+.dark-text {
+  color: #007bff;
+}

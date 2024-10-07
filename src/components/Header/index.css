@@ -1,0 +1,50 @@
+.header-container {
+  height: 10vh;
+  background-color: #1e293b;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.bg-content {
+  background-color: #f8fafc;
+}
+
+.icon-profile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.nxt-watch-logo {
+  height: 50px;
+  width: 50px;
+}
+.profile-image {
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.logout-button {
+  height: 36px;
+  width: 136px;
+  border: none;
+  background-color: #4f46e5;
+  border-radius: 5px;
+  color: #ffffff;
+  align-items: center;
+}
+
+.moon-sun-button {
+  border: none;
+  background-color: none;
+  outline: none;
+}
+.icon {
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+}

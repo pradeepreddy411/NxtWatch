@@ -1,0 +1,63 @@
+.login-container {
+  height: 100vh;
+  background-color: #f9f9f9;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.responsive-container {
+  width: 500px;
+  height: 500px;
+  padding: 20px;
+  box-shadow: aqua;
+  border: 1px solid #f8fafc;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.nxt-logo {
+  height: 60px;
+  width: 60px;
+  margin-bottom: 10px;
+  align-self: center;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.label {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #475569;
+  margin-top: 10px;
+}
+.input-element {
+  height: 36px;
+  width: auto;
+  border: 1px solid #475569;
+}
+.check-box-input {
+  border: 2px solid #475569;
+  height: 16px;
+  width: 16px;
+}
+
+.label-check-box {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: bold;
+}
+.login-button {
+  height: 38px;
+  background-color: #4f46e5;
+  color: #ffffff;
+  align-items: center;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+}
